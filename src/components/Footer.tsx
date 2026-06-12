@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { useApp } from '../context/AppContext';
 import StarField from './StarField';
 
