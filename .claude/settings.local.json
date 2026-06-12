@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(node -e \"const lr = require\\('./node_modules/lucide-react/dist/cjs/lucide-react.js'\\); const keys = Object.keys\\(lr\\); const social = keys.filter\\(k => /instagram|twitter|youtube|facebook|tiktok|linkedin|share/i.test\\(k\\)\\); console.log\\(social.join\\(', '\\)\\);\")",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(d['version']\\)\")",
+      "Bash(Test-Path \"C:\\\\Users\\\\jimmy\\\\HelthyFood\\\\admin\\\\node_modules\")",
+      "Bash(node -e \"const l = require\\('C:/Users/jimmy/HelthyFood/admin/node_modules/lucide-react'\\); console.log\\(['Leaf','LayoutDashboard','ShoppingCart','Package','Users','BarChart3','Tag','Settings','LogOut','Bell','Search','TrendingUp','AlertTriangle','DollarSign','Clock','Plus','Edit','Trash2','X','Eye','EyeOff','Phone','MapPin','ChevronLeft','ChevronRight'].filter\\(k => !l[k]\\)\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(npm run *)",
+      "Bash(powershell -Command \"Stop-Process -Id 1256 -Force\")",
+      "Bash(curl -s -o /dev/null -w \"Admin \\(5176\\): %{http_code}\\\\n\" http://localhost:5176/)",
+      "Bash(curl -s -o /dev/null -w \"Backend health \\(4000\\): %{http_code}\\\\n\" http://localhost:4000/health)"
+    ]
+  }
+}
